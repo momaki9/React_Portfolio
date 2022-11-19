@@ -1,8 +1,10 @@
 import React from 'react';
-import Form from './components/Form/index';
+import PortfolioElement from './components/PortfolioElement';
+// import Form from './components/Form/index';
 
 function App() {
-    return <Form />;
+    // return <Form />;
+   return <PortfolioElement />;
 }
 
 export default App;
