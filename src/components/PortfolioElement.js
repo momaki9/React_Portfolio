@@ -4,6 +4,7 @@ import About from './Directory/About';
 import Contact from './Directory/Contact';
 import Portfolio from './Directory/Portfolio';
 import Resume from './Directory/Resume';
+import Footer from './Footer';
 
 export default function PortfolioElement() {
 
@@ -28,6 +29,7 @@ export default function PortfolioElement() {
         <div>
             <NavBar currentPage={currentPage} handlePageChange={handlePageChage}/>
             {renderPage()}
+            <Footer />
         </div>
     );
 }
