@@ -12,22 +12,22 @@ function NavBar({ currentPage, handlePageChange }) {
                     <ul className='navbar-nav'>
                         <li className='nav-item'>
                             <a href='#about' onClick={() => handlePageChange('About')}
-                                className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+                                className={currentPage === 'About' ? 'nav-link text-primary' : 'nav-link'}
                             >About Me</a>
                         </li>
                         <li className='nav-item'>
                             <a href='#portfolio' onClick={() => handlePageChange('Portfolio')}
-                                className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+                                className={currentPage === 'Portfolio' ? 'nav-link text-primary' : 'nav-link'}
                             >Portfolio</a>
                         </li>
                         <li className='nav-item'>
                             <a href='#contact' onClick={() => handlePageChange('Contact')}
-                                className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+                                className={currentPage === 'Contact' ? 'nav-link text-primary' : 'nav-link'}
                             >Contact</a>
                         </li>
                         <li className='nav-item'>
                             <a href='#resume' onClick={() => handlePageChange('Resume')}
-                                className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+                                className={currentPage === 'Resume' ? 'nav-link text-primary' : 'nav-link'}
                             >Resume</a>
                         </li>
                     </ul>

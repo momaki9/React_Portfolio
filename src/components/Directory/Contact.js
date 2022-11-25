@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { validateEmail, checkInput } from '../../utils/helpers';
 
+const customStyle = { width: '21rem', margin: "2%"};
+const customCss = { margin: "10px" };
+
 export default function Contact() {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
@@ -76,17 +79,9 @@ export default function Contact() {
 
     return (
         <div id="contactlink">
-            <h2>Contact Me!</h2>
-
-            {/* <div>
-                <ul>
-                    <li className="contactinfo">+1 (657) 999-3559</li>
-                    <li className="contactinfo"><a href="mailto:mostafa.maki@gmail.com">Email me</a></li>
-                    <li className="contactinfo"><a href="https://github.com/momaki9">GitHub</a></li>
-                </ul>
-            </div> */}
+            <h2 style={customStyle}>Contact Me!</h2>
             <div>
-                <form>
+                <form   style={customCss}>
                     <div className='form-group row'>
                         <label for="nameInput" className='col-sm-1 col-form-label'>Name</label>
                         <div className='col-sm-3'>
