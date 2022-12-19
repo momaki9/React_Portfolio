@@ -19,13 +19,13 @@ export default function Portfolio() {
                     </div>
                 </div>
                 <div className="card col-3" style={customWidth}>
-                    <img src="https://i.postimg.cc/LsQxCLzt/homepage-ss.png" className="card-img-top" alt="..." style={customCss}/>
+                    <img src="https://i.postimg.cc/9MJnWN1b/beemyfriend-ss.png" className="card-img-top" alt="..." style={customCss}/>
                     <div className="card-body">
-                    <h5 className="card-title">Tech Blog</h5>
-                        <p className="card-text">A CMS-style blog app that follows the MVC paradigm.</p>
-                        <a href="https://tech-blog-mvc-9.herokuapp.com/" className="btn btn-light">Link to App</a>
+                    <h5 className="card-title">BeeMyFriend</h5>
+                        <p className="card-text">A social media app that is built using the MERN stack. It also accepts payments via stripe.</p>
+                        <a href="https://beemyfriend.herokuapp.com/" className="btn btn-light">Link to App</a>
                         <p></p>
-                        <a href="https://github.com/momaki9/Tech_Blog" className="btn btn-light">Link to Code on GitHub</a>
+                        <a href="https://github.com/momaki9/Bee-myFriend" className="btn btn-light">Link to Code on GitHub</a>
                     </div>
                 </div>
                 <div className="card col-3" style={customWidth}>
